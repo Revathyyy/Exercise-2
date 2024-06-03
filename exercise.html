@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="exercise.css">
+</head>
+<body>
+    <div id="header">
+      <div class="item1"> <input type="text" placeholder="Search Name" id="search"></div>
+  
+      <div>
+        <form>
+            <b>DEPARTMENT</b>
+            <select id = "myList1">
+            <option> ---Choose Department--- </option>
+            <option id="listt"> Product </option>
+            <option id="listtt"> Human Resource </option>
+            </select>
+            </form>
+      </div>
+      <div><input type="button" value="ADD DETAILS" id="addDetail"></div>
+   </div>
+    <table id="myTable">
+        <thead class="head">
+            <tr>
+                <!-- <th>ID</th> -->
+                <th>FIRST NAME</th>
+                <th>LAST NAME</th>
+                <th>DEPARTMENT</th>
+                <th>EMAIL</th>
+                <th>JOB TITLE</th>
+                <th>GENDER</th>
+                <th>AGE</th>
+                <th>SALARY</th>
+                <th>YEAR OF EXPERIENCE</th>
+                <th>ACTION</th>
+            </tr>
+        </thead>
+        <tbody id="area">
+            <div id="inputs" >
+                <div id="input1">
+                    <input type="text" placeholder="First Name" id="name">
+                <input type="text" placeholder="Last Name" id="last">
+                <input type="text" placeholder="Department" id="dept">
+                <input type="email" placeholder="Email" id="mail">
+                <input type="text" placeholder="Job Title" id="job">
+                </div>
+                <div id="input2">
+                    <input type="text" placeholder="Gender" id="gender">
+                    <input type="number" placeholder="Age" id="age">
+                    <input type="number" placeholder="Salary" id="salary">
+                    <input type="number" placeholder="Year of Experience" id="yoe">
+                </div>
+                <div id="savebtn"><input type="button" id="save" value="Save"></div>
+                <div id="savebtn"><input type="button" id="saveEdit" value="Save"></div>
+            </div>
+            <tr> <td id="but">
+                <!-- <input type="button" id="edit" value="Edit" > -->
+                <input type="button" class="edit" value="Edit" >
+                <input type="button" class="delete" value="Delete" >
+               </td></tr>
+        </tbody>
+    </table>
+    <div id="buttons">
+    <input type="button" value="1" id="btn1">
+    <input type="button" value="2" id="btn2">
+    <input type="button" value="3" id="btn3">
+    <input type="button" value="4" id="btn4">
+    <input type="button" value="5" id="btn5">
+    <input type="button" value="6" id="btn6">
+    <input type="button" value="7" id="btn7">
+    <input type="button" value="8" id="btn8">
+    <input type="button" value="9" id="btn9">
+    <input type="button" value="10" id="btn10">
+
+</div>
+</body>
+<script src="exercise.js"></script>
+</html>

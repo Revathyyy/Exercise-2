@@ -1,0 +1,98 @@
+#header{
+    display: grid;
+ grid-template-columns: auto auto auto;
+ grid-gap:10px;
+}
+
+#filter{
+    background-color:bisque ;
+    padding: 16px;
+    width: 300px;
+   border-radius: 10px;
+    cursor: pointer;
+}
+#dropdown{
+    
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        overflow: auto;
+}
+.show {display: block;}
+table{
+    margin-top: 30px;
+    height: auto;
+   margin-left: 150px;
+}
+td{
+    height: 10px;
+    border: 1px black solid; 
+    text-align: center;
+}
+#area{
+    height: 10px;
+}
+.head{
+    background-color:rgb(184, 131, 165);
+    border: 3px black solid;
+}
+
+#buttons{
+    margin-left: 500px;
+    margin-top: 20px;
+}
+
+
+#btn1,#btn2,#btn3,#btn4,#btn5,#btn6,#btn7,#btn8,#btn9,#btn10{
+    height: 40px;
+    width: 30px;
+
+}
+a{
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+#but{
+    display: none;
+}
+.edit{
+    background-color: rgb(232, 232, 52);
+    border-radius: 5px;
+}
+.delete{
+    background-color: red;
+    border-radius: 5px;
+}
+.add{
+    background-color: green;
+    border-radius: 5px;
+    
+}
+#inputs{
+    display: none;
+    border: 2px solid black;
+
+}
+
+#input1{
+   align-items: center;
+  padding: 10px 100px 10px 200px;
+}
+#input2{
+  justify-content: space-around;
+    padding-left:300px ;
+ }
+ #save,#saveEdit{
+background-color: rgb(11, 49, 11);
+color: white;
+height: 50px;
+width: 80px;
+border-radius: 10px;
+ }
+ #savebtn{
+    padding-left: 600px;
+    padding-top: 10px;
+ }
+ 
